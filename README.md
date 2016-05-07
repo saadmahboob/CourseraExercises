@@ -1,6 +1,6 @@
-# CourseraExercises
+# [Coursera Machine Learning Exercises](https://www.coursera.org/learn/machine-learning/home/info)
 
-Implementation of coursera exercises in numpy and theano
+Implementation of Stanford Machine Learning course exercises in numpy and theano
 
 ## Topics
 
