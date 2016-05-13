@@ -10,7 +10,7 @@ Implementation of Stanford Machine Learning course exercises in numpy and theano
 - [x] Multivariate Linear Regression
 - [x] Vectorization of data and operations
 - [x] Logistic Regression for Binary Classification
-- [ ] Multiclass Classification
+- [x] Multiclass Classification
 - [x] Multilayer Perceptron (Neural Networks) for MNIST classification
 - [ ] KNN for clustering
 - [ ] PCA
