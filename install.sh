@@ -3,25 +3,26 @@
 #		shoule work with Ubuntu 14.04
 #################################
 
-sudo apt-get install build-essential
+sudo apt-get --assume-yes install build-essential
 sudo apt-get update
 # BLAS → LAPACK → ATLAS → numpy → scipy → Theano
 # remove numpy and scipy
 sudo apt-get remove python-numpy
 sudo apt-get remove python-scipy
 # Instalation commands
-sudo apt-get install gfortran
-sudo apt-get install libopenblas-dev
-sudo apt-get install liblapack-dev
-sudo apt-get install libatlas-base-dev
+sudo apt-get --assume-yes install gfortran
+sudo apt-get --assume-yes install libopenblas-dev
+sudo apt-get --assume-yes install liblapack-dev
+sudo apt-get --assume-yes install libatlas-base-dev
 
 # Theano dep
-sudo apt-get install python-dev
-sudo apt-get install python-pip
-sudo apt-get install python-nose
-sudo apt-get install g++
-sudo apt-get install git 
+sudo apt-get --assume-yes install python-dev
+sudo apt-get --assume-yes install python-pip
+sudo apt-get --assume-yes install python-nose
+sudo apt-get --assume-yes install g++
+sudo apt-get --assume-yes install git 
 
+sudo pip install pip -U
 
 # Numpy
 sudo pip install numpy -U
