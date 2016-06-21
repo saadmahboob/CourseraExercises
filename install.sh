@@ -22,15 +22,22 @@ sudo apt-get --assume-yes install python-nose
 sudo apt-get --assume-yes install g++
 sudo apt-get --assume-yes install git 
 
-sudo pip install pip -U
+sudo -H pip install pip -U
 
 # Numpy
-sudo pip install numpy -U
+sudo -H pip install numpy -U
 # Scipy
-sudo pip install scipy -U
+sudo -H pip install scipy -U
 # Thano
-sudo pip install theano -U
+sudo -H pip install theano -U
 # Lasagne
-sudo pip install lasagne -U
+sudo -H pip install lasagne -U
 # Keras
-sudo pip install keras -U
+sudo -H pip install keras -U
+
+
+###
+# Install Jupyter Notebook
+###
+sudo apt-get -y install ipython ipython-notebook
+sudo -H pip install jupyter
